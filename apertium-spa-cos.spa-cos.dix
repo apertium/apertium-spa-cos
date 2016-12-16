@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-   <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet></alphabet>
 
   <sdefs>
-    <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
     <sdef n="vblex"           c="Verb, lexical"/>
@@ -91,72 +89,82 @@
     <sdef n="lquot"           c="Left quote"/>
     <sdef n="rquot"           c="Right quote"/>
 
-    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
-    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
+   <pardefs>
+
+    <pardef n="sp_sg">
+       <e><p><l><s n="sp"/></l><r><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="GD_m">
+       <e r="RL"><p><l><s n="GD"/></l><r><s n="m"/></r></p></e>
+       <e r="LR"><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+       <e r="LR"><p><l><s n="f"/></l><r><s n="m"/></r></p></e>
+     </pardef>
+
+   </pardefs>
 
    <section id="main" type="standard">
-      <!-- Section: Nouns -->
-   <e><p><l>año<s n="n"/><s n="m"/></l><r>annu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>camino<s n="n"/><s n="m"/></l><r>modu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>caso<s n="n"/><s n="m"/></l><r>casu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>cesta<s n="n"/><s n="f"/></l><r>basket<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>club<s n="n"/><s n="m"/></l><r>club<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>cóctel<s n="n"/><s n="m"/></l><r>cocktail<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>costo<s n="n"/><s n="m"/></l><r>costu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>dado<s n="n"/><s n="m"/></l><r>datu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>día<s n="n"/><s n="m"/></l><r>ghjornu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>dialecto<s n="n"/><s n="m"/></l><r>dialettu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>disco<s n="n"/><s n="m"/></l><r>disco<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>efecto<s n="n"/><s n="m"/></l><r>effettu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>eslogan<s n="n"/><s n="m"/></l><r>slogan<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>éxito<s n="n"/><s n="m"/></l><r>successu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>explosión<s n="n"/><s n="f"/></l><r>pop<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>fondo<s n="n"/><s n="m"/></l><r>fondu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>futuro<s n="n"/><s n="m"/></l><r>avvene<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>gamberro<s n="n"/><s n="m"/></l><r>hooligan<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>gente<s n="n"/><s n="f"/></l><r>folk<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>grupo<s n="n"/><s n="m"/></l><r>gruppu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>hermano<s n="n"/><s n="m"/></l><r>fratellu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>hombre<s n="n"/><s n="m"/></l><r>omu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>jardín<s n="n"/><s n="m"/></l><r>ortu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>jardín<s n="n"/><s n="m"/></l><r>giardinu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>lista<s n="n"/><s n="f"/></l><r>listinu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>lugar<s n="n"/><s n="m"/></l><r>postu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>mercado<s n="n"/><s n="m"/></l><r>mercatu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>metal<s n="n"/><s n="m"/></l><r>metal<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>molino<s n="n"/><s n="m"/></l><r>mulinu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>movimiento<s n="n"/><s n="m"/></l><r>motu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>nivel<s n="n"/><s n="m"/></l><r>liveddu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>número<s n="n"/><s n="m"/></l><r>numeru<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>oro<s n="n"/><s n="m"/></l><r>oru<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>pájaro<s n="n"/><s n="m"/></l><r>acellu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>pasado<s n="n"/><s n="m"/></l><r>passatu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>paz<s n="n"/><s n="f"/></l><r>pace<s n="n"/><s n="f"/></r></p></e>
-   <e><p><l>pista<s n="n"/><s n="f"/></l><r>track<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>principado<s n="n"/><s n="m"/></l><r>principatu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>proceso<s n="n"/><s n="m"/></l><r>prucessu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>punto<s n="n"/><s n="m"/></l><r>puntu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>relación<s n="n"/><s n="f"/></l><r>raportu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>restauración<s n="n"/><s n="f"/></l><r>ughjettu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>rey<s n="n"/><s n="m"/></l><r>rè<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>roca<s n="n"/><s n="f"/></l><r>rock<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>tiro<s n="n"/><s n="m"/></l><r>shot<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>transporte<s n="n"/><s n="m"/></l><r>aereu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>uso<s n="n"/><s n="m"/></l><r>usu<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>ventilador<s n="n"/><s n="m"/></l><r>fan<s n="n"/><s n="m"/></r></p></e>
-   <e><p><l>vodka<s n="n"/><s n="m"/></l><r>vodka<s n="n"/><s n="f"/></r></p></e>
-   <e><p><l>whisky<s n="n"/><s n="m"/></l><r>whisky<s n="n"/><s n="m"/></r></p></e>
-       
+       <!-- Section: Nouns -->
 
+       <e><p><l>año<s n="n"/><s n="m"/></l><r>annu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>camino<s n="n"/><s n="m"/></l><r>modu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>caso<s n="n"/><s n="m"/></l><r>casu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>cesta<s n="n"/><s n="f"/></l><r>basket<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>club<s n="n"/><s n="m"/></l><r>club<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>cóctel<s n="n"/><s n="m"/></l><r>cocktail<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>costo<s n="n"/><s n="m"/></l><r>costu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>dado<s n="n"/><s n="m"/></l><r>datu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>día<s n="n"/><s n="m"/></l><r>ghjornu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>dialecto<s n="n"/><s n="m"/></l><r>dialettu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>disco<s n="n"/><s n="m"/></l><r>disco<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>efecto<s n="n"/><s n="m"/></l><r>effettu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>eslogan<s n="n"/><s n="m"/></l><r>slogan<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>éxito<s n="n"/><s n="m"/></l><r>successu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>explosión<s n="n"/><s n="f"/></l><r>pop<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>fondo<s n="n"/><s n="m"/></l><r>fondu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>futuro<s n="n"/><s n="m"/></l><r>avvene<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>gamberro<s n="n"/><s n="m"/></l><r>hooligan<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>gente<s n="n"/><s n="f"/></l><r>folk<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>grupo<s n="n"/><s n="m"/></l><r>gruppu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>hermano<s n="n"/><s n="m"/></l><r>fratellu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>hombre<s n="n"/><s n="m"/></l><r>omu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>jardín<s n="n"/><s n="m"/></l><r>ortu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>jardín<s n="n"/><s n="m"/></l><r>giardinu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>lista<s n="n"/><s n="f"/></l><r>listinu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>lugar<s n="n"/><s n="m"/></l><r>postu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>mercado<s n="n"/><s n="m"/></l><r>mercatu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>metal<s n="n"/><s n="m"/></l><r>metal<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>molino<s n="n"/><s n="m"/></l><r>mulinu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>movimiento<s n="n"/><s n="m"/></l><r>motu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>nivel<s n="n"/><s n="m"/></l><r>liveddu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>número<s n="n"/><s n="m"/></l><r>numeru<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>oro<s n="n"/><s n="m"/></l><r>oru<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>pájaro<s n="n"/><s n="m"/></l><r>acellu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>pasado<s n="n"/><s n="m"/></l><r>passatu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>paz<s n="n"/><s n="f"/></l><r>pace<s n="n"/><s n="f"/></r></p></e>
+       <e><p><l>pista<s n="n"/><s n="f"/></l><r>track<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>principado<s n="n"/><s n="m"/></l><r>principatu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>proceso<s n="n"/><s n="m"/></l><r>prucessu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>punto<s n="n"/><s n="m"/></l><r>puntu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>relación<s n="n"/><s n="f"/></l><r>raportu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>restauración<s n="n"/><s n="f"/></l><r>ughjettu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>rey<s n="n"/><s n="m"/></l><r>rè<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>roca<s n="n"/><s n="f"/></l><r>rock<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>tiro<s n="n"/><s n="m"/></l><r>shot<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>transporte<s n="n"/><s n="m"/></l><r>aereu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>uso<s n="n"/><s n="m"/></l><r>usu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>ventilador<s n="n"/><s n="m"/></l><r>fan<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>vodka<s n="n"/><s n="m"/></l><r>vodka<s n="n"/><s n="f"/></r></p></e>
+       <e><p><l>whisky<s n="n"/><s n="m"/></l><r>whisky<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>jazz<s n="n"/><s n="m"/></l><r>jazz<s n="n"/><s n="m"/></r></p><par n="sp_sg"/></e>
+       <e><p><l>punk<s n="n"/><s n="m"/></l><r>punk<s n="n"/><s n="m"/></r></p><par n="sp_sg"/></e>
+       <e><p><l>congresista<s n="n"/><s n="mf"/></l><r>deputatu<s n="n"/><s n="m"/></r></p></e>
+       <e><p><l>deputado<s n="n"/></l><r>deputatu<s n="n"/></r></p><par n="GD_m"/></e>
+           
+    
 
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+        <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+        <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
    </section>
 </dictionary>
-
-<!--
-Resources:
-    http://wiki.apertium.org/wiki/Bilingual_dictionary
-    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Bilingual_dictionary
--->
