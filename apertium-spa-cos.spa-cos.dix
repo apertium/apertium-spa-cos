@@ -42,6 +42,9 @@
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
     <sdef n="un"              c="No gender"/>
+    <sdef n="mf"              c="Masuline / Feminine"/>
+    <sdef n="GD"              c="Gender to be determined"/>
+
 
     <sdef n="sg"              c="Singular"/>
     <sdef n="du"              c="Dual"/>
