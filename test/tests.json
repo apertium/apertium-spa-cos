@@ -1,0 +1,10 @@
+{
+    "cos-spa": {
+        "input": "cos-spa-input.txt",
+        "mode": "cos-spa"
+    },
+    "spa-cos": {
+        "input": "spa-cos-input.txt",
+        "mode": "spa-cos"
+    }
+}

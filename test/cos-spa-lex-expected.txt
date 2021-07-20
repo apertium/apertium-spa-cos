@@ -1,0 +1,14 @@
+[6r62Q8iPocg9#0] ^ghjornu<n><m><pl>/día<n><m><pl>$
+[/6r62Q8iPocg9]
+[Bdhn9krH-buo#0] ^giardinu<n><m><pl>/jardín<n><m><pl>$
+[/Bdhn9krH-buo]
+[ECuu0HtuHwEJ#0] ^effettu<n><m><sg>/efecto<n><m><sg>$
+[/ECuu0HtuHwEJ]
+[KI_KiCcB6j0W#0] ^basket<n><m><sg>/cesta<n><f><sg>$
+[/KI_KiCcB6j0W]
+[NHyIUJVevpbC#0] ^effettu<n><m><pl>/efecto<n><m><pl>$
+[/NHyIUJVevpbC]
+[io3oI9XtPhJ0#0] ^?<sent>/?<sent>$
+[/io3oI9XtPhJ0]
+[zbTuKuppzGqD#0] ^.<sent>/.<sent>$
+[/zbTuKuppzGqD]

@@ -1,0 +1,18 @@
+[-9h5mB0Quu_3#0] ^whisky<n><m><sg>$
+[/-9h5mB0Quu_3]
+[0WDPdxQeBQLA#0] ^dialecto<n><m><sg>$
+[/0WDPdxQeBQLA]
+[QbgF6nrAFOI1#0] ^;<sent>$
+[/QbgF6nrAFOI1]
+[hIcadgsgtcM7#0] ^número<n><m><sg>$
+[/hIcadgsgtcM7]
+[io3oI9XtPhJ0#0] ^?<sent>$
+[/io3oI9XtPhJ0]
+[mIcrY9KcgJNJ#0] ^fondo<n><m><pl>$
+[/mIcrY9KcgJNJ]
+[tJNYlMjOFr3m#0] ^…<sent>$
+[/tJNYlMjOFr3m]
+[u3IIvJtdfATx#0] ^!<sent>$
+[/u3IIvJtdfATx]
+[v79EdA9BVU3d#0] ^día<n><m><sg>$
+[/v79EdA9BVU3d]

@@ -1,0 +1,14 @@
+[6r62Q8iPocg9#0] ^día<n><m><pl>$
+[/6r62Q8iPocg9]
+[Bdhn9krH-buo#0] ^jardín<n><m><pl>$
+[/Bdhn9krH-buo]
+[ECuu0HtuHwEJ#0] ^efecto<n><m><sg>$
+[/ECuu0HtuHwEJ]
+[KI_KiCcB6j0W#0] ^cesta<n><f><sg>$
+[/KI_KiCcB6j0W]
+[NHyIUJVevpbC#0] ^efecto<n><m><pl>$
+[/NHyIUJVevpbC]
+[io3oI9XtPhJ0#0] ^?<sent>$
+[/io3oI9XtPhJ0]
+[zbTuKuppzGqD#0] ^.<sent>$
+[/zbTuKuppzGqD]
